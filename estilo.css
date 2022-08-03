@@ -1,6 +1,7 @@
- body {
-  background: green;
-}
-  h1 {
-    text-align:;
-}    
+body { background: red; }
+h1 { text-align:; } .caixa1
+{ position: relative;
+   width: 200px;
+   height: 200px;
+    background: blue;
+    left: 50px; }
