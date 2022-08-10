@@ -1,7 +1,25 @@
-body { background: red; }
-h1 { text-align:; } .caixa1
-{ position: relative;
-   width: 200px;
-   height: 200px;
-    background: blue;
-    left: 50px; }
+body {
+  background: gray;
+}
+h1 {
+  text-align: center;
+}
+/*
+  position: absolute;
+  position: fixed;
+  position: sticky;
+*/
+.caixa1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: orange;
+  left: 50px;
+}
+.menuPrincipal {
+  position: absolute;
+  background: rgb(179, 184, 255);
+  width: 100%;
+  height: 100px;
+  top: 0;
+}
