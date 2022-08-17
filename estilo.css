@@ -1,5 +1,5 @@
 body {
-  background: rgb(128, 128, 128);
+  background: rgb(219, 238, 152);
 }
 h1 {
   text-align: center;
@@ -13,32 +13,69 @@ h1 {
   position: relative;
   width: 200px;
   height: 200px;
-  background: rgb(0, 255, 85);
+  background: rgb(255, 166, 0);
   left: 50px;
 }
 .menuPrincipal {
   position: absolute;
-  background: rgb(179, 255, 245);
+  background: rgb(120, 128, 251);
   width: 100%;
   height: 45px;
   top: 0;
 }
-nav ul { 
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow 0;
-  }
-  li { 
-    float: left;
-  }
-  li a { 
- display: block;
- color: darkgoldenrod;
- padding: 14px 16px;
- text-decoration: none;
- font-family: 'Courier New', Courier, monospace
-  }
-  li a:hover { 
-    background: rgb(38, 0, 255);
-  }
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li a:hover {
+  background: rgba(255, 202, 57, 0.589);
+}
+.boxImage {
+  width: 600px;
+  height: 600px;
+  background: rgb(255, 166, 0);
+  top: 200px;
+  top: 45px;
+  left: 0;
+  margin: 20px;
+  border-color: aquamarine;
+  padding: 20px;
+  display: flex;
+
+}
+#mar 
+  width: 500px;
+  height: 500px;
+}
+ .rodape { 
+   position: absolute;
+   width: 100%;
+   height: 50px;
+   color: azure;
+  background: cadetblue;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+ }
+ .conteudohome { 
+   position: absolute;
+   top: 45px;
+ }
+
+
+
+
