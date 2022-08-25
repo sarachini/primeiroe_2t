@@ -46,9 +46,9 @@ li a:hover {
 .boxImage {
   position: absolute;
   width: 90%;
-  height: 500px;
+  height: 400px;
   background: rgb(255, 166, 0);
-  top: 45px;
+  top: 90px;
   left: 0;
   margin: 20px;
   border-color: black;
@@ -60,7 +60,7 @@ li a:hover {
 }
 #mar {
   width: 800%;
-  height: 500px;
+  height: 400px;
 }
 .rodape {
   position: absolute;
@@ -80,13 +80,19 @@ li a:hover {
 #imagemHome {
   width: 1000px;
   height: 200px;
+  margin-left: 150px;
 }
-
-
-
-
-
-
-
-
-
+.conteudo01 {
+  position: relative;
+  top: 45px;
+}
+.conteudo02 {
+  position: relative;
+  top: 45px;
+  margin-left: 25%;
+}
+#lista {
+  position: relative;
+  width: 700px;
+  height: 400px;
+}
